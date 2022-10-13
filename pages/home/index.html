@@ -7,8 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../../styles/globalStyles.css">
   <link rel="stylesheet" href="./index.css">
-  <script src="../../scripts/api.js"></script>
-  <script src="./index.js"></script>
+  <script defer src="../../scripts/api.js"></script>
+  <script defer src="./index.js"></script>
   <title>Meet devs</title>
 </head>
 <body class="container">
@@ -23,22 +23,7 @@
     <input id="search" type="text" placeholder="Pesquisar por um dev...">
   </header>
   <main>
-    <ul class="cards">
-      <li class="card">
-        <figure class="img-card">
-          <img src="../../assets/vardeba.jpg" alt="Foto de vardeba">
-          <button class="btn-card btn-like"></button>
-        </figure>
-        <div class="devs-details">
-          <h2 class="dev-name">Valdecir Teixeira</h2>
-          <p class="dev-address">Rua Libia, 289</p>
-          <p class="dev-age">43 anos</p>
-          <div class="btns-card">
-            <button class="btn-card btn-mail"></button>
-            <button class="btn-card btn-tel"></button>
-          </div>
-        </div>
-      </li>
+    <ul id="devCards" class="cards">
     </ul>
   </main>
 </body>
